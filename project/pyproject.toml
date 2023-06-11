@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "o2"
+version = "0.1.0"
+description = ""
+authors = ["Rail <rail.akhmietshin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.2"
+djangorestframework = "^3.14.0"
+psycopg2-binary = "^2.9.6"
+requests = "^2.31.0"
+gunicorn = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+Django = "^4.2.2"
+djangorestframework = "^3.14.0"
+psycopg2-binary = "^2.9.6"
+requests = "^2.31.0"
+gunicorn = "^20.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
