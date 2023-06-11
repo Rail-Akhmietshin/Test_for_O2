@@ -14,6 +14,11 @@ After successfully running the project in Docker, application will be available 
 
 * http://localhost:1337
 
+## Main code:
+
+* Path: project/api/views
+
+
 ## Web route:
 
 * Route: http://localhost:1337/api/comments/
